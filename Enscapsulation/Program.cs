@@ -10,7 +10,6 @@ namespace Encapsulation
     {
         static void Main(string[] args)
         {
-
             int choice = 0;
             BankAccount account = new BankAccount("Fulufhelo", "2222");
 
