@@ -17,11 +17,7 @@ namespace Inheritance
             public virtual string GetDescription()
             {
                 return Year + " " + Make + " " + Model;
-            }
-           
-            public string GetManufacturer() { return Model; }
-
-         
+            }   
         }
 
         class Car : Vehicle
@@ -31,9 +27,7 @@ namespace Inheritance
             public override string GetDescription()
             {
                 return Year + " " + Make + " " + Model + " - Doors: " + DoorCount;
-            }
-
-            
+            } 
         }
 
         class Truck : Vehicle
