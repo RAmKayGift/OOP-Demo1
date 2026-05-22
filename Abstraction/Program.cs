@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Abstraction
 {
+    
     interface INotificationService
     {
         void Send(string recipient, string message);
